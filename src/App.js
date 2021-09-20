@@ -8,7 +8,7 @@ export const AppsContext = createContext({});
 const App = () => {
     const [isDark, setIsDark] = useState(false);
     return (
-        <Router>
+        <Router basename="/Frontend-Mentor-Challange-Countries-API">
             <AppsContext.Provider value={{ isDark, setIsDark }}>
                 <Navbar />
                 <Switch>
