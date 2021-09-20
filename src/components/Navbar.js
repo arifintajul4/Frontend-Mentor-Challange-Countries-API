@@ -25,7 +25,7 @@ export default function Navbar() {
 
     return (
         <div
-            className={`py-4 shadow-2xl  ${
+            className={`py-6 shadow-2xl  ${
                 isDark
                     ? "bg-blue text-white "
                     : "bg-white border-gray border-b-2 border-opacity-25"

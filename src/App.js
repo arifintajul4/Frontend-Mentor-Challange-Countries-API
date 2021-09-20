@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 
-export const AppsContext = React.createContext({});
+export const AppsContext = createContext({});
 const App = () => {
     const [isDark, setIsDark] = useState(false);
     return (

@@ -65,7 +65,7 @@ function Home() {
                                 <span className="absolute inset-y-0 left-0 flex items-center pl-2">
                                     <button
                                         type="submit"
-                                        className={`pl-5 focus:outline-none focus:shadow-outline ${
+                                        className={`md:pl-5 pl-2 focus:outline-none focus:shadow-outline ${
                                             isDark
                                                 ? "text-white"
                                                 : "text-blue-dark"
@@ -89,7 +89,7 @@ function Home() {
                                 </span>
                                 <input
                                     type="text"
-                                    className={`py-3 pl-16 w-96 rounded shadow text-sm font-light focus:outline-none ${
+                                    className={`py-3 pl-16 md:w-96 w-full rounded shadow text-sm font-light focus:outline-none ${
                                         isDark && "bg-blue text-white"
                                     }`}
                                     placeholder="Search for a country..."
@@ -100,8 +100,8 @@ function Home() {
                         <div className="mt-5 md:mt-0">
                             <select
                                 onChange={handleFilter}
-                                className={`px-7 py-3 rounded shadow text-sm font-semibold focus:outline-none ${
-                                    isDark && "bg-blue text-white"
+                                className={`md:px-7 px-4 py-3 rounded shadow text-sm font-semibold focus:outline-none ${
+                                    isDark ? "bg-blue text-white" : "bg-white"
                                 }`}
                             >
                                 <option
@@ -168,6 +168,13 @@ function Home() {
                                         </Link>
                                     );
                                 })}
+                                {countryList.length <= 0 && (
+                                    <div className="md:col-span-4 w-full text-center mt-10">
+                                        <p className="font-semibold font-xl">
+                                            Negara tidak ditemukan!
+                                        </p>
+                                    </div>
+                                )}
                             </div>
                         )}
                     </div>
