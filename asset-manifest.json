@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Frontend-Mentor-Challange-Countries-API/static/css/main.9ecbd97d.chunk.css",
-    "main.js": "/Frontend-Mentor-Challange-Countries-API/static/js/main.23ab312f.chunk.js",
-    "main.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/main.23ab312f.chunk.js.map",
+    "main.js": "/Frontend-Mentor-Challange-Countries-API/static/js/main.7f1fcc45.chunk.js",
+    "main.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/main.7f1fcc45.chunk.js.map",
     "runtime-main.js": "/Frontend-Mentor-Challange-Countries-API/static/js/runtime-main.84fb3dc9.js",
     "runtime-main.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/runtime-main.84fb3dc9.js.map",
     "static/js/2.19fd8905.chunk.js": "/Frontend-Mentor-Challange-Countries-API/static/js/2.19fd8905.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.84fb3dc9.js",
     "static/js/2.19fd8905.chunk.js",
     "static/css/main.9ecbd97d.chunk.css",
-    "static/js/main.23ab312f.chunk.js"
+    "static/js/main.7f1fcc45.chunk.js"
   ]
 }
