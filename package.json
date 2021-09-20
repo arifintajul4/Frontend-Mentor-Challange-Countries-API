@@ -1,6 +1,6 @@
 {
     "name": "my-app",
-    "homepage": "http://arifintajul4.github.io/rest-country-api",
+    "homepage": "http://arifintajul4.github.io/Frontend-Mentor-Challange-Countries-API",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
