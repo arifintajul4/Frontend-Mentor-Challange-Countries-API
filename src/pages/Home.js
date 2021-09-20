@@ -89,7 +89,7 @@ function Home() {
                                 </span>
                                 <input
                                     type="text"
-                                    className={`py-3 pl-16 md:w-96 w-full rounded shadow text-sm font-light focus:outline-none ${
+                                    className={`py-3 pl-11 md:pl-16 md:w-96 w-full rounded shadow text-sm font-light focus:outline-none ${
                                         isDark && "bg-blue text-white"
                                     }`}
                                     placeholder="Search for a country..."
@@ -99,14 +99,15 @@ function Home() {
                         </form>
                         <div className="mt-5 md:mt-0">
                             <select
+                                defaultValue="none"
                                 onChange={handleFilter}
                                 className={`md:px-7 px-4 py-3 rounded shadow text-sm font-semibold focus:outline-none ${
                                     isDark ? "bg-blue text-white" : "bg-white"
                                 }`}
                             >
                                 <option
+                                    value="none"
                                     className="font-semibold"
-                                    selected
                                     disabled
                                 >
                                     Filter by region

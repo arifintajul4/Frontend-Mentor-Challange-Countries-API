@@ -6,10 +6,10 @@ export default function Navbar() {
 
     const selectTheme = (value) => {
         localStorage.setItem("theme", value);
-        setIsDark(value == "dark" ? true : false);
+        setIsDark(value === "dark" ? true : false);
         const html = document.querySelector("html");
         html.classList.add(localStorage.getItem("theme"));
-        if (value == "dark") {
+        if (value === "dark") {
             html.classList.remove("light");
         } else {
             html.classList.remove("dark");
@@ -20,8 +20,8 @@ export default function Navbar() {
         document
             .querySelector("html")
             .classList.add(localStorage.getItem("theme"));
-        setIsDark(localStorage.getItem("theme") == "dark" ? true : false);
-    }, []);
+        setIsDark(localStorage.getItem("theme") === "dark" ? true : false);
+    }, [setIsDark]);
 
     return (
         <div

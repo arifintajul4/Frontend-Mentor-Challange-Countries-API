@@ -14,7 +14,7 @@ export default function Card() {
             .then((res) => res.json())
             .then((res) => {
                 idx++;
-                if (borders.length - 1 !== idx) {
+                if (borders.length !== idx) {
                     getBorderName(borders, idx);
                 }
                 borderList.push(res.name);
@@ -35,7 +35,7 @@ export default function Card() {
 
     return (
         <div
-            className={`${
+            className={`min-h-screen ${
                 isDark ? "bg-blue-dark text-white" : "bg-gray-light"
             }`}
         >
