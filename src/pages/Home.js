@@ -22,6 +22,7 @@ function Home() {
 
     const handleSearch = (e) => {
         e.preventDefault();
+        setCountryList(null);
         if (keyword === "") {
             getAllData();
         } else {
@@ -52,7 +53,7 @@ function Home() {
                     isDark ? "bg-blue-dark text-white" : "bg-gray-light"
                 } min-h-screen`}
             >
-                <div className="container pt-10">
+                <div className="container pt-12">
                     <div className="flex flex-col md:flex-row justify-between">
                         <form onSubmit={handleSearch}>
                             <div
@@ -89,7 +90,7 @@ function Home() {
                                 </span>
                                 <input
                                     type="text"
-                                    className={`py-3 pl-11 md:pl-16 md:w-96 w-full rounded shadow text-sm font-light focus:outline-none ${
+                                    className={`py-5 pl-11 md:pl-16 md:w-96 w-full rounded shadow text-sm font-light focus:outline-none ${
                                         isDark && "bg-blue text-white"
                                     }`}
                                     placeholder="Search for a country..."
@@ -101,7 +102,7 @@ function Home() {
                             <select
                                 defaultValue="none"
                                 onChange={handleFilter}
-                                className={`md:px-7 px-4 py-3 rounded shadow text-sm font-semibold focus:outline-none ${
+                                className={`md:px-7 px-4 py-5 rounded shadow text-sm font-semibold focus:outline-none ${
                                     isDark ? "bg-blue text-white" : "bg-white"
                                 }`}
                             >
@@ -142,16 +143,16 @@ function Home() {
                             </select>
                         </div>
                     </div>
-                    <div>
+                    <div className="mt-10">
                         {countryList == null ? (
-                            <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mt-5">
+                            <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
                                 <CardSkeleton />
                                 <CardSkeleton />
                                 <CardSkeleton />
                                 <CardSkeleton />
                             </div>
                         ) : (
-                            <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mt-5">
+                            <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
                                 {countryList.map((el, idx) => {
                                     return (
                                         <Link
