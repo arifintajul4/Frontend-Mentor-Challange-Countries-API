@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Frontend-Mentor-Challange-Countries-API/static/css/main.f1cb2325.chunk.css",
-    "main.js": "/Frontend-Mentor-Challange-Countries-API/static/js/main.a851b9f5.chunk.js",
-    "main.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/main.a851b9f5.chunk.js.map",
-    "runtime-main.js": "/Frontend-Mentor-Challange-Countries-API/static/js/runtime-main.84fb3dc9.js",
-    "runtime-main.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/runtime-main.84fb3dc9.js.map",
-    "static/js/2.19fd8905.chunk.js": "/Frontend-Mentor-Challange-Countries-API/static/js/2.19fd8905.chunk.js",
-    "static/js/2.19fd8905.chunk.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/2.19fd8905.chunk.js.map",
-    "static/js/3.2e2a146f.chunk.js": "/Frontend-Mentor-Challange-Countries-API/static/js/3.2e2a146f.chunk.js",
-    "static/js/3.2e2a146f.chunk.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/3.2e2a146f.chunk.js.map",
+    "main.js": "/Frontend-Mentor-Challange-Countries-API/static/js/main.b3da45d6.chunk.js",
+    "main.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/main.b3da45d6.chunk.js.map",
+    "runtime-main.js": "/Frontend-Mentor-Challange-Countries-API/static/js/runtime-main.d4f6e2a8.js",
+    "runtime-main.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/runtime-main.d4f6e2a8.js.map",
+    "static/js/2.cd51cbe8.chunk.js": "/Frontend-Mentor-Challange-Countries-API/static/js/2.cd51cbe8.chunk.js",
+    "static/js/2.cd51cbe8.chunk.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/2.cd51cbe8.chunk.js.map",
+    "static/js/3.8e35f437.chunk.js": "/Frontend-Mentor-Challange-Countries-API/static/js/3.8e35f437.chunk.js",
+    "static/js/3.8e35f437.chunk.js.map": "/Frontend-Mentor-Challange-Countries-API/static/js/3.8e35f437.chunk.js.map",
     "index.html": "/Frontend-Mentor-Challange-Countries-API/index.html",
     "static/css/main.f1cb2325.chunk.css.map": "/Frontend-Mentor-Challange-Countries-API/static/css/main.f1cb2325.chunk.css.map",
-    "static/js/2.19fd8905.chunk.js.LICENSE.txt": "/Frontend-Mentor-Challange-Countries-API/static/js/2.19fd8905.chunk.js.LICENSE.txt"
+    "static/js/2.cd51cbe8.chunk.js.LICENSE.txt": "/Frontend-Mentor-Challange-Countries-API/static/js/2.cd51cbe8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.84fb3dc9.js",
-    "static/js/2.19fd8905.chunk.js",
+    "static/js/runtime-main.d4f6e2a8.js",
+    "static/js/2.cd51cbe8.chunk.js",
     "static/css/main.f1cb2325.chunk.css",
-    "static/js/main.a851b9f5.chunk.js"
+    "static/js/main.b3da45d6.chunk.js"
   ]
 }
