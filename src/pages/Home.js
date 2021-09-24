@@ -14,7 +14,9 @@ function Home() {
     }, []);
 
     const getAllData = () => {
-        fetch(`https://restcountries.eu/rest/v2/all`)
+        fetch(
+            `https://restcountries.eu/rest/v2/all?access_key=9ce3b61a751def192c36f00184d794a7`
+        )
             .then((data) => data.json())
             .then((data) => setCountryList(data))
             .catch((err) => alert(err));
@@ -26,7 +28,9 @@ function Home() {
         if (keyword === "") {
             getAllData();
         } else {
-            fetch(`https://restcountries.eu/rest/v2/name/${keyword}`)
+            fetch(
+                `https://restcountries.eu/rest/v2/name/${keyword}?access_key=9ce3b61a751def192c36f00184d794a7`
+            )
                 .then((data) => data.json())
                 .then((data) => {
                     data.status !== 404
@@ -40,7 +44,9 @@ function Home() {
     const handleFilter = (e) => {
         const filter = e.target.value;
         setCountryList(null);
-        fetch(`https://restcountries.eu/rest/v2/region/${filter}`)
+        fetch(
+            `https://restcountries.eu/rest/v2/region/${filter}?access_key=9ce3b61a751def192c36f00184d794a7`
+        )
             .then((data) => data.json())
             .then((data) => setCountryList(data))
             .catch((err) => console.log(err));
